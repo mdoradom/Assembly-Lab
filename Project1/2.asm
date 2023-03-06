@@ -22,12 +22,12 @@ j DD ?
 .code
 _main proc
 MOV EAX, [i]
-MOV [pi], EAX ; *
+MOV [pi], EAX
 
 MOV EBX, i
 MOV j, EBX
 
-MOV [EAX], -1 ; *
+;MOV [EAX], -1
 
 
 _main endp
