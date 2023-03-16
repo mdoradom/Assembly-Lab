@@ -26,5 +26,6 @@ div_loop:
 div_done:
 
 _main endp
-
 end _main
+
+END
