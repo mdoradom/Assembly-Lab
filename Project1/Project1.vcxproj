@@ -141,7 +141,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <MASM Include="task2.asm" />
+    <MASM Include="optional_asm.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="optional_c.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

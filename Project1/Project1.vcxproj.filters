@@ -15,8 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="task2.asm">
+    <MASM Include="optional_asm.asm">
       <Filter>Source Files</Filter>
     </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="optional_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
